@@ -20,6 +20,7 @@ body {
 .calendar {
   display: flex;
   flex-wrap: wrap;
+  max-width: 806px;
   & div {
     @extend %calendar-days;
     text-align: center;
