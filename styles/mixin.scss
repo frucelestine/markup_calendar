@@ -1,0 +1,8 @@
+@mixin hover-style {
+    &:hover {
+            background-color: pink;
+            margin-top: -19.5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+}

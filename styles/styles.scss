@@ -1,0 +1,39 @@
+$pageCenter: 0 300px;
+$pageFonts: Arial, sans-serif;
+@import "mixin";
+@import "calendar-first-days";
+
+body {
+  margin: $pageCenter;
+  font-size: 30px;
+  font-family: $pageFonts;
+}
+
+%calendar-days {
+  width: 100px;
+  height: 100px;
+  margin: 0.5px;
+  border: 0.5px solid black;
+  background-color: #eee;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  & div {
+    @extend %calendar-days;
+    text-align: center;
+    @include hover-style;
+  }
+  @import "calendar-31";
+  @import "calendar-30";
+  @import "calendar-29";
+  @import "calendar-28";
+}
+
+@for $i from 1 through 31 {
+  .calendar div:nth-child(#{$i})::after {
+    content: "#{$i * 1}";
+    line-height: 100px;
+  }
+}

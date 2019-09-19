@@ -1,0 +1,47 @@
+%calendar-tue {
+&.calendar-tue{
+      & div:first-child {
+        margin-left: 103px;
+      }
+    }
+}
+
+%calendar-wed {
+  &.calendar-wed{
+      & div:first-child {
+        margin-left: 205px;
+      }
+    }
+}
+
+%calendar-thu {
+  &.calendar-thu{
+      & div:first-child {
+        margin-left: 307px;
+      }
+    }
+}
+
+%calendar-fri {
+  &.calendar-fri{
+      & div:first-child {
+        margin-left: 409px;
+      }
+    }
+}
+
+%calendar-sat {
+  &.calendar-sat{
+      & div:first-child {
+        margin-left: 511px;
+      }
+    }
+}
+
+%calendar-sun {
+  &.calendar-sun{
+      & div:first-child {
+        margin-left: 613px;
+      }
+    }
+}

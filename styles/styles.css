@@ -1,0 +1,225 @@
+.calendar-tue.calendar.calendar-31 div:first-child, .calendar-tue.calendar.calendar-30 div:first-child, .calendar-tue.calendar.calendar-29 div:first-child, .calendar-tue.calendar.calendar-28 div:first-child {
+  margin-left: 103px;
+}
+
+.calendar-wed.calendar.calendar-31 div:first-child, .calendar-wed.calendar.calendar-30 div:first-child, .calendar-wed.calendar.calendar-29 div:first-child, .calendar-wed.calendar.calendar-28 div:first-child {
+  margin-left: 205px;
+}
+
+.calendar-thu.calendar.calendar-31 div:first-child, .calendar-thu.calendar.calendar-30 div:first-child, .calendar-thu.calendar.calendar-29 div:first-child, .calendar-thu.calendar.calendar-28 div:first-child {
+  margin-left: 307px;
+}
+
+.calendar-fri.calendar.calendar-31 div:first-child, .calendar-fri.calendar.calendar-30 div:first-child, .calendar-fri.calendar.calendar-29 div:first-child, .calendar-fri.calendar.calendar-28 div:first-child {
+  margin-left: 409px;
+}
+
+.calendar-sat.calendar.calendar-31 div:first-child, .calendar-sat.calendar.calendar-30 div:first-child, .calendar-sat.calendar.calendar-29 div:first-child, .calendar-sat.calendar.calendar-28 div:first-child {
+  margin-left: 511px;
+}
+
+.calendar-sun.calendar.calendar-31 div:first-child, .calendar-sun.calendar.calendar-30 div:first-child, .calendar-sun.calendar.calendar-29 div:first-child, .calendar-sun.calendar.calendar-28 div:first-child {
+  margin-left: 613px;
+}
+
+body {
+  margin: 0 300px;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.calendar div {
+  width: 100px;
+  height: 100px;
+  margin: 0.5px;
+  border: 0.5px solid black;
+  background-color: #eee;
+}
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calendar div {
+  text-align: center;
+}
+
+.calendar div:hover {
+  background-color: pink;
+  margin-top: -19.5px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.calendar.calendar-30 :last-child {
+  display: none;
+}
+
+.calendar.calendar-29 :nth-child(n + 30) {
+  display: none;
+}
+
+.calendar.calendar-28 :nth-child(n + 29) {
+  display: none;
+}
+
+.calendar div:nth-child(1)::after {
+  content: "1";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(2)::after {
+  content: "2";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(3)::after {
+  content: "3";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(4)::after {
+  content: "4";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(5)::after {
+  content: "5";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(6)::after {
+  content: "6";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(7)::after {
+  content: "7";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(8)::after {
+  content: "8";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(9)::after {
+  content: "9";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(10)::after {
+  content: "10";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(11)::after {
+  content: "11";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(12)::after {
+  content: "12";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(13)::after {
+  content: "13";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(14)::after {
+  content: "14";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(15)::after {
+  content: "15";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(16)::after {
+  content: "16";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(17)::after {
+  content: "17";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(18)::after {
+  content: "18";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(19)::after {
+  content: "19";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(20)::after {
+  content: "20";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(21)::after {
+  content: "21";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(22)::after {
+  content: "22";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(23)::after {
+  content: "23";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(24)::after {
+  content: "24";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(25)::after {
+  content: "25";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(26)::after {
+  content: "26";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(27)::after {
+  content: "27";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(28)::after {
+  content: "28";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(29)::after {
+  content: "29";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(30)::after {
+  content: "30";
+  line-height: 100px;
+}
+
+.calendar div:nth-child(31)::after {
+  content: "31";
+  line-height: 100px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+ &.calendar-29 {
+    @extend %calendar-tue;
+    @extend %calendar-wed;
+    @extend %calendar-thu;
+    @extend %calendar-fri;
+    @extend %calendar-sat;
+    @extend %calendar-sun;
+    & :nth-child(n + 30){
+      display: none;
+    }
+  }

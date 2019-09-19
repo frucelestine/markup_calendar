@@ -1,0 +1,8 @@
+&.calendar-31 {
+   @extend %calendar-tue;
+    @extend %calendar-wed;
+    @extend %calendar-thu;
+    @extend %calendar-fri;
+    @extend %calendar-sat;
+    @extend %calendar-sun;
+  }
